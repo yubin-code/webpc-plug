@@ -1,0 +1,37 @@
+{
+  "name": "@webpc/plug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "lib/index.d.ts",
+  "files": [
+    "/lib",
+    "/dist",
+    "/types"
+  ],
+  "authors": {
+    "name": "yubin",
+    "email": "18462232@qq.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/lodash": "^4.14.154",
+    "@types/node": "^14.0.9",
+    "@types/webpack-dev-server": "^3.11.0",
+    "@types/webpack-merge": "^4.1.5",
+    "@webpc/core": "1.0.6",
+    "debug": "^4.1.1",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "lodash": "^4.17.15",
+    "portfinder": "^1.0.26",
+    "webpack": "^4.43.0",
+    "webpack-chain": "^6.4.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2",
+    "webpackbar": "^4.0.0"
+  }
+}
